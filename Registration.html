@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+    <div class="legend-container" id="legendTop">
+        <a href="index.html" class="legend-link">Main</a>
+        <a href="content.html" class="legend-link">Honey page</a>
+        <a href="Registration.html" class="legend-link">Registration</a>
+        <a href="contact.html" class="legend-link">Contact us</a>
+    </div><hr>
+    <p>If you would like to subscribe for the newsletter please fill out this form </p>
+    <form method="post" action="#">
+        <fieldset style="color: darkred;">
+            <label for="phone">Enter your phone number: <input name="phonenumber" placeholder="044 123 1234"  id="phone" type="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label>
+            <label for="first-name">Enter your first name: <input name="firstname" id="first-name" type="text" required></label>
+            <label for="last-name">Enter your last name: <input name="lastname" id="last-name" type="text"required></label>
+            <label for="email">Enter your email: <input name="email" id="email" type="email" required></label>
+            <label for="new-password">Enter your new password: <input name="password" id="new-password" type="password" required min="8"></label>        
+        </fieldset>
+        <fieldset  style="color: darkred;">
+            <label for="personal-account"><input class="inline" id="personal-account" type="radio" name="account-type"> Personal Account</label>
+            <label for="business-account"><input class="inline" id="business-account" type="radio" name="account-type"> Business Account</label>
+            <label for="terms-and-conditions"><input class="inline" name="ts&cs" type="checkbox" required id="terms-and-conditions"> I accept the <a href="./TsCs.html" >terms and conditions</a></label>
+        </fieldset>
+        <fieldset  style="color: darkred;">
+            <label for="profile-picture">Upload a profile picture: <input name="profilepicture" type="file"></label>
+            <label for="age">Your age: <input name="age" id="age" type="number" min="16" max="120"></label>
+        <label for="referrer">How did you hear about us?</label>
+            <select name="referref" id="referrer">
+                <option value="">(select one)</option>
+                <option value="1">Bumblebee</option>
+                <option value="2">Flowers</option>
+                <option value="3">Paddington Bear</option>
+                <option value="4">Winnie the Pooh</option>
+            </select>
+        </label>
+        <label for="bio">Provide a bio: <br><textarea name="bio" id="bio" cols="30" rows="3" placeholder="Write here..."></textarea></label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<p>
+    <a href="./index.html">Back to main site</a>
+</p>
+<hr class="bottom-line">
+<div class="legend-container" id="legendBottom">
+    <a href="index.html" class="legend-link">Main</a>
+    <a href="content.html" class="legend-link">Honey page</a>
+    <a href="Registration.html" class="legend-link">Registration</a>
+    <a href="contact.html" class="legend-link">Contact us</a>
+</div>
+<footer style="background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1));">
+    <br>
+    <p class="address" style="color: yellow;">453 Honey Avenue, Nectarland</p>
+</footer>
+</html>

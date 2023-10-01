@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+    <div class="legend-container" id="legendTop">
+        <a href="index.html" class="legend-link">Main</a>
+        <a href="content.html" class="legend-link">Honey page</a>
+        <a href="Registration.html" class="legend-link">Registration</a>
+        <a href="contact.html" class="legend-link">Contact us</a>
+    </div><hr>
+    <p>Please fill out this form with the required information and we'll get in contact with you</p>
+    <form method="post" action="#">
+        <fieldset style="color: darkred;">
+            <label for="phone">Enter your phone number: <input placeholder="optional"  id="phone" type="number"></label>
+            <label for="first-name">Enter your first name: <input id="first-name" type="text" required></label>
+            <label for="last-name">Enter your last name: <input id="last-name" type="text" required></label>
+            <label for="email">Enter your email: <input id="email" type="email" required></label>
+        </fieldset>
+        <fieldset style="color: darkred;">
+            <label for="contact"><input class="inline" id="contact" type="radio" name="contact-type"> I'd like to get in contact</label>
+            <label for="review"><input class="inline" id="review" type="radio" name="contact-type"> I'd like to leave a review</label>
+            <label for="terms-and-conditions"><input class="inline" id="terms-and-conditions" type="checkbox" required id=""> I accept the <a href="./TsCs.html">terms and conditions</a></label>
+        </fieldset>
+        <fieldset style="color: darkred;">
+            <label for=""><input type="file"> Upload a file:</label>
+            <label for=""></label>
+            <label for=""> How did you hear about us?
+                <select name="" id="">
+                    <option value="">(select one)</option>
+                    <option value="1">Bumblebee</option>
+                    <option value="2">Bamse</option>
+                    <option value="3">Paddington Bear</option>
+                    <option value="4">Winnie the Pooh</option>
+                </select>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<hr  class="bottom-line">
+<div  class="legend-container" id="legendBottom">
+    <a href="index.html" class="legend-link">Main</a>
+    <a href="content.html" class="legend-link">Honey page</a>
+    <a href="Registration.html" class="legend-link">Registration</a>
+    <a href="contact.html" class="legend-link">Contact us</a>
+</div>
+<footer style="background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1));">
+    <p>
+        <a href="./index.html">Back to main site</a>
+    </p>
+    <p class="address" style="color: yellow;">453 Honey Avenue, Nectarland</p>
+</footer>
+</html>

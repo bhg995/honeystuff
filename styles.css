@@ -1,0 +1,92 @@
+h1, h2, p {
+    text-align: center;
+    color: yellow;
+}
+h1 {
+    font-family: Impact, serif;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+body {
+    background-color: burlywood; 
+    background-image: url(https://images.unsplash.com/photo-1623018697148-8350cf18e64e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    padding: 20px;
+}
+.menu{
+    width: 80%;
+    background-color: darkred;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+}
+hr {
+    height: 2px;
+    background-color: yellow;
+    border-color: yellow;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+.nutrition, .properties{
+    text-align: left;
+    width: 75%;
+}
+.quantity{
+    text-align: right;
+    width: 25%;
+}
+.item p {
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+a {
+    color: yellow;
+}
+a:visited {
+    color: grey
+}
+a:hover {
+    color:white
+}
+a:active {
+    color: white
+}
+address {
+    margin-bottom: 5px;
+}
+img {
+    display: block;
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25;
+}
+.legend-container {
+    display: flex;
+    justify-content: space-around;
+    position: center;
+    width: auto;
+    top: 10px;
+    padding: 10px;
+    background-color: rgba(216, 168, 11, 0.5);
+    color: white;
+}
+.legend-link:hover {
+    color: darkred;
+}
+.legend-link {
+    text-decoration: none;
+    color: white;
+}
