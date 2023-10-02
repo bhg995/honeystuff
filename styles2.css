@@ -135,7 +135,7 @@ label {
     padding: 10px;
     background-color: rgba(216, 168, 11, 0.5);
     color: white;
-    z-index: 1; /* Place it above the sliding image */
+    z-index: 1; 
 }
 .legend-link:hover {
     color: darkred;
