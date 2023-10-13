@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link style="background-color: white;" rel="icon" type="image/x-icon" href="./registration-icon.png">
 </head>
-<body>
-    
+<body> 
     <h1>Registration Form</h1>
     <div class="legend-container" id="legendTop">
         <a href="index.html" class="legend-link">Main</a>
@@ -31,7 +31,7 @@
         </fieldset>
         <fieldset  style="color: darkred;">
             <label for="profile-picture">Upload a profile picture: <input name="profilepicture" type="file"></label>
-            <label for="age">Your age: <input name="age" id="age" type="number" min="16" max="120"></label>
+            <label for="age">Your age: min age to subscribe is 13<input name="age" id="age" type="number" min="13" max="120"></label>
         <label for="referrer">How did you hear about us?</label>
             <select name="referref" id="referrer">
                 <option value="">(select one)</option>
@@ -45,6 +45,7 @@
         </fieldset>
         <input type="submit" value="Submit">
     </form>
+</body>
 </body>
 <p>
     <a href="./index.html">Back to main site</a>

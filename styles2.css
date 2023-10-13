@@ -65,7 +65,7 @@ body {
     font-size: 16px;
     
 }
-/*.menu{
+.menu{
     width: 80%;
     background-color: darkred;
     margin-left: auto;
@@ -73,7 +73,7 @@ body {
     padding: 20px;
     max-width: 700px;
 }
-*/hr {
+hr {
     height: 2px;
     background-color: darkred;
     border-color: darkred;
@@ -100,7 +100,7 @@ footer {
     font-size: 14px;
 }
 a {
-    color: darkred<s;
+    color: darkred;
 }
 a:visited {
     color: grey
@@ -135,8 +135,9 @@ label {
     padding: 10px;
     background-color: rgba(216, 168, 11, 0.5);
     color: white;
-    z-index: 1; 
+    z-index: 1; /* Place it above the sliding image */
 }
+
 .legend-link:hover {
     color: darkred;
 }
